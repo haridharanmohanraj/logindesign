@@ -1,0 +1,114 @@
+.parent {
+  margin: 50px;
+  display: flex;
+  height: 450px;
+  background: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.one {
+  background-color: green;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 100%;
+}
+
+.two .outerdiv {
+  width: 50%;
+}
+
+.one p {
+  padding: 10px 30px 20px 25px;
+  line-height: 25px;
+}
+
+button {
+  width: 150px;
+  border-radius: 15px;
+  padding: 15px 0;
+  outline: none;
+  border: 1px solid whitesmoke;
+  cursor: pointer;
+  background-color: green;
+  /* border-top-left-radius: 15px;
+  border-top-left-radius: 15px; */
+}
+
+.two {
+  background-color: white;
+  width: 70%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  padding-top: 40px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.two h1 {
+  color: green;
+}
+
+.create {
+  text-align: center;
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+form input {
+  margin-bottom: 10px;
+  padding: 0 15px;
+  height: 37px;
+  background: rgb(167, 245, 167);
+  outline: none;
+  border: none;
+}
+
+form .button {
+  text-align: center;
+}
+
+form button {
+  background: green;
+  color: white;
+}
+
+.circle {
+  z-index: -1;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  background-color: aliceblue;
+}
+
+.yellow-circle {
+  background-color: yellow;
+  position: absolute;
+  bottom: -10px;
+  left: -30px;
+}
+
+.red-circle {
+  background-color: red;
+  position: absolute;
+  top: -20px;
+  right: -50px;
+}
